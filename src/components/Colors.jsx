@@ -1,10 +1,13 @@
 import { useState } from 'react';
+import Azul from "../../public/img/iphone-blue.jpg"
+import Natural from "../../public/img/iphone-silver.jpg"
+import Laranja from "../../public/img/iphone-orange.jpg"
 
 function Colors() {
     const colors = [
-        { id: 'blue', name: 'Titânio Azul', image: '../../public/img/iphone-blue.jpg', colorClass: 'bg-blue-500' },
-        { id: 'silver', name: 'Titânio Natural', image: '../../public/img/iphone-silver.jpg', colorClass: 'bg-gray-300' },
-        { id: 'orange', name: 'Titânio Laranja', image: '../../public/img/iphone-orange.jpg', colorClass: 'bg-orange-500' }
+        { id: 'blue', name: 'Titânio Azul', image: Azul, colorClass: 'bg-blue-500' },
+        { id: 'silver', name: 'Titânio Natural', image: Natural, colorClass: 'bg-gray-300' },
+        { id: 'orange', name: 'Titânio Laranja', image: Laranja, colorClass: 'bg-orange-500' }
     ];
 
     const models = [
